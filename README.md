@@ -2,15 +2,15 @@
 Tests for K8S managers, nodepool and workload managers
 
 # Intro
-The root contains scripts for per-cluster env vars. Once execute, run init.sh in respective test case.
+The root contains scripts for per-cluster env vars. Once this has been executed, then run init.sh in respective test case.
 
 # End-to-end Test
 ```
 cd end-to-end
 
-./init.sh
+./1_init.sh
 
-./execute.sh
+./2_execute.sh
 
-./term.sh
+./3_term.sh
 ```
